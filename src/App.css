@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #830e2f;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/*
+https://labsnews.com/pt-br/wp-content/uploads/sites/5/2019/08/10-largest-international-ecommerces-brazil-1-1000x420-1280x720.jpg
+
+https://www.conversion.com.br/wp-content/uploads/2022/01/infografico-ecommerce-importados.svg
+https://w7.pngwing.com/pngs/325/220/png-transparent-ebay-logo-ebay-online-shopping-amazon-com-sales-ebay-logo-text-logo-donation.png
+
+
+  background-image: url('https://www.conversion.com.br/wp-content/uploads/2022/01/infografico-ecommerce-importados.svg');
+
+https://www.jtinternational.com.br/wp-content/uploads/2020/02/blog-alexaliba-1280x640.png
+
+
+http://emmeconsult.com/wp-content/uploads/2018/01/Marketing-and-Public-Relation-Strategies-of-Fedex-UPS-and-DHL-810x207.png
+
+https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/8b/8d/8a/8b8d8af8-f10c-5e3a-c74e-56727aa59504/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png
+*/

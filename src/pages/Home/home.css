@@ -1,0 +1,246 @@
+.dica-importador {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dica {
+  width: 30rem;
+  text-align: justify;
+}
+.dica-importador h4 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 25px;
+}
+
+.s-section-prime {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.s-prime-pub {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-prime-pub img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.texto-sobre-importacao {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.texto-sobre-importacao h3 {
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+  text-align: justify;
+}
+.texto-sobre-importacao h3:nth-child(2) {
+  margin-top: 10px;
+}
+
+/*postando os link*/
+.s-section-links {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.s-conteudo-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.s-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-form form {
+  background: transparent;
+  padding: 50px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.s-input {
+  width: 250px;
+  margin: 15px 0px;
+}
+.s-input input,
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+  border-radius: 8px;
+  text-indent: 10px;
+  font-size: 16px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnPostLinks,
+.btnLinks {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #103b4d;
+  cursor: pointer;
+}
+
+/*Lista de links 
+.btnLinks {
+  width: 200px;
+  background-color: #103b4d;
+  color: #fff;
+}
+.s-title-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.s-card-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-link {
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px 2px #052e49d3;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+.list-links {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+*/
+
+.s-imagem-loja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-imagem-loja img {
+  width: 100%;
+  max-width: 700px;
+  animation: s-imagem-loja 3s infinite;
+}
+
+@keyframes s-imagem-loja {
+  0% {
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+  }
+  100% {
+    transform: scale(0.4);
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+  }
+}
+.s-imagem-loja {
+}
+
+/* Section de transportadora*/
+
+.s-transportadora {
+  padding: 0px 50px;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.s-empresa {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.transportadora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.transportadora ul {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.empresa-texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empresa-texto h2 {
+  color: #fff;
+  font-weight: 900;
+}

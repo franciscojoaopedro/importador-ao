@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  background-color: #fff;
+}
+nav {
+  display: flex;
+  padding: 15px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header h1 {
+  color: #04525c;
+}
+
+.avatar-user img {
+  width: 50px;
+  height: 50px;
+}

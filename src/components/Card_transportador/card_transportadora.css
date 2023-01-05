@@ -1,0 +1,44 @@
+.card-transportadora {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+.card-transportadora a {
+  text-decoration: none;
+}
+.card-content-transportadora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.card-content-transportadora {
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-image-transportadora {
+  width: 100px;
+}
+.card-image-transportadora img {
+  width: 100%;
+}
+.card-title {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-title h3 {
+  color: #fff;
+}
